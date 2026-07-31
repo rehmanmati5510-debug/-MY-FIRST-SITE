@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>Sarwodey Property & Motors Hub</title>
+<style>
+body { font-family: 'Segoe UI', Arial; background: #f1f1f1; margin: 0; }
+.header { background: #002f34; color: white; padding: 15px; display: flex; justify-content: space-between; align-items: center; }
+.header h1 { margin: 0; font-size: 22px; }
+.header .btn-sell { background: #ffce32; color: #002f34; padding: 8px 15px; border-radius: 6px; text-decoration: none; font-weight: bold; }
+.search-bar { background: white; padding: 15px; text-align: center; }
+.search-bar input { width: 80%; padding: 12px; border: 2px solid #002f34; border-radius: 6px; font-size: 16px; }
+.categories { background: white; padding: 10px; display: flex; justify-content: center; gap: 20px; border-bottom: 1px solid #ddd; flex-wrap: wrap; }
+.categories a { text-decoration: none; color: #002f34; font-weight: bold; }
+.budget-filter { background: #e6f3ff; padding: 10px; text-align: center; }
+.budget-filter button { margin: 5px; padding: 8px 15px; border: 1px solid #007bff; background: white; border-radius: 20px; cursor: pointer; }
+.budget-filter button:hover { background: #007bff; color: white; }
+.container { max-width: 1200px; margin: 20px auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; padding: 15px; }
+.card { background: white; border-radius: 6px; border: 1px solid #ddd; overflow: hidden; position: relative; }
+.card img { width: 100%; height: 200px; object-fit: cover; }
+.tag { position: absolute; top: 10px; right: 10px; padding: 3px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; }
+.low { background: #4caf50; color: white; } 
+.mid { background: #ff9800; color: white; } 
+.high { background: #d32f2f; color: white; } 
+.card-body { padding: 12px; text-align: right; }
+.price { color: #002f34; font-weight: bold; font-size: 20px; }
+.details { color: #666; font-size: 14px; margin: 5px 0; }
+.location { color: #999; font-size: 12px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🏡 Sarwodey Property & Motors Hub</h1>
+  <a href="https://wa.me/923260485179" class="btn-sell">+ اشتہار دیں</a>
+</div>
+
+<div class="search-bar">
+  <input type="text" placeholder="گھر، پلاٹ، گاڑی تلاش کریں...">
+</div>
+
+<div class="categories">
+  <a href="#">تمام اشتہارات</a>
+  <a href="#">Homes</a>
+  <a href="#">Plots</a>
+  <a href="#">Commercial</a>
+  <a href="#">Cars 🚗</a>
+</div>
+
+<div class="budget-filter">
+  <b>بجٹ کے حساب سے چنیں:</b>
+  <button>Low Cost - 50 لاکھ سے کم</button>
+  <button>Mid Range - 50 لاکھ سے 2 کروڑ</button>
+  <button>High End - 2 کروڑ سے اوپر</button>
+</div>
+
+<div class="container">
+  <div class="card">
+    <span class="tag low">LOW COST</span>
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600">
+    <div class="card-body">
+      <p class="price">35,00,000 PKR</p>
+      <h3>3 مرلہ سنگل سٹوری گھر</h3>
+      <p class="details">2 بیڈ | سرودے، لاہور</p>
+      <p class="location">آج</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="tag mid">MID RANGE</span>
+    <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600">
+    <div class="card-body">
+      <p class="price">1,20,00,000 PKR</p>
+      <h3>5 مرلہ ڈبل سٹوری گھر</h3>
+      <p class="details">3 بیڈ | 3 باتھ | سرودے</p>
+      <p class="location">2 دن پہلے</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="tag high">LUXURY</span>
+    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600">
+    <div class="card-body">
+      <p class="price">4,50,00,000 PKR</p>
+      <h3>1 کنال کا لگژری گھر</h3>
+      <p class="details">5 بیڈ | ڈی ایچ اے، لاہور</p>
+      <p class="location">1 ہفتہ پہلے</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="tag mid">MID RANGE</span>
+    <img src="https://images.unsplash.com/photo-1549924231-16c5757c659e?w=600">
+    <div class="card-body">
+      <p class="price">55,00,000 PKR</p>
+      <h3>Honda Civic 2018</h3>
+      <p class="details">1800cc | Automatic</p>
+      <p class="location">3 دن پہلے</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
