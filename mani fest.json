@@ -1,8 +1,0 @@
-{
-  "name": "Sarwodey Property & Motors",
-  "short_name": "Sarwodey",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#002f34"
-}
